@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+
+#gallery {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-button {
+    width: calc(100% / 4 - 10px); /* Adjust based on the desired number of columns */
+    height: calc(100% / 2 - 10px); /* Adjust based on the desired number of rows */
+    aspect-ratio: 3 / 4; /* Adjust based on the aspect ratio of your images */
+    background-size: 100% 100%;
+    background-position: stretch;; 
+}
+
+#videoPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
