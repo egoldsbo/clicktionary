@@ -2,7 +2,9 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: black;
+    overflow: hidden;
 }
+
 
 
 #gallery {
@@ -17,7 +19,7 @@ body {
 .gallery-button {
     width: calc(100% / 4 - 10px); /* Adjust based on the desired number of columns */
     height: calc(100% / 2 - 10px); /* Adjust based on the desired number of rows */
-    aspect-ratio: 3 / 4; /* Adjust based on the aspect ratio of your images */
+    aspect-ratio: 16 / 9; /* Adjust based on the aspect ratio of your images */
     background-size: 100% 100%;
     background-position: stretch;; 
 }
